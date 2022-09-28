@@ -1,5 +1,5 @@
 {
-  "name": "griefsupport",
+  "name": "griefSupport",
   "version": "0.1.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
@@ -22,9 +22,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "\turl = https://github.com/racheleckenrod/griefSupport.git"
   }
 }
