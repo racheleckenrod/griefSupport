@@ -83,6 +83,10 @@ io.on("connection", (socket) => {
   });
 });
 
+server.get("/chat", (req,res) => {
+  console.log(res,req)
+})
+
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
