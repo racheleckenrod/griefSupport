@@ -21,7 +21,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 // Set static folder
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static("public"));
 
 const botName = "Grief Support Bot";
 
@@ -84,6 +84,11 @@ io.on("connection", (socket) => {
     }
   });
 });
+
+// app.get("/", (req,res) => {
+//   console.log("hope")
+//   res.sendFile('index.html')
+// })
 
 const PORT = process.env.PORT || 3000;
 
