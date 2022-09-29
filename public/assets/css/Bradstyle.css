@@ -182,8 +182,16 @@ a {
 	.chat-main {
 		display: block;
 	}
+	.chat-form-container {
+		padding: 5px 30px;
+		background-color: var(--dark-color-a);
+	}
 
 	.chat-sidebar {
 		display: none;
+	}
+
+	.chat-form-container form {
+		display: block;
 	}
 }
