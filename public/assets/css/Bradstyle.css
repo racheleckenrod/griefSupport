@@ -116,7 +116,7 @@ a {
 }
 
 .chat-form-container form {
-	display: flex;
+	display: block;
 }
 
 .chat-form-container input[type='text'] {
