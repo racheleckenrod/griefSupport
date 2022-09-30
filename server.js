@@ -14,7 +14,7 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
-// small change to server.js
+// sorting out git HEAD
 
 const app = express();
 const server = http.createServer(app);
