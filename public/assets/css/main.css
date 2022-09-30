@@ -2806,7 +2806,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 				font-size: 1em;
-				max-width: 30em;
+				max-width: 10em;
 				/* margin: 0 auto; */
 			}
 
