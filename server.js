@@ -15,6 +15,7 @@ const {
 } = require("./utils/users");
 
 // sorting out git HEAD
+// I'm thinking this will push to github
 
 const app = express();
 const server = http.createServer(app);
