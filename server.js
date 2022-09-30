@@ -16,6 +16,7 @@ const {
 
 // small change to server.js
 // will this version push right to heroku?
+// it did not push right to heroku, but is an attached repo, git hub
 
 const app = express();
 const server = http.createServer(app);
