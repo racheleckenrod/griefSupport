@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #af73d9;
-	--dark-color-b: #6d379c;
-	--light-color: #e6e9ff;
+	--dark-color-a: #3e414b ;
+	--dark-color-b: #282b34;
+	--light-color: #ccc;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
 }
@@ -143,7 +143,7 @@ a {
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
+	background:#282b34 url("images/overlay.png");
 }
 
 .join-main p {
