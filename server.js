@@ -14,16 +14,7 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
-
 // small change to server.js
-// will this version push right to heroku?
-// it did not push right to heroku, but is an attached repo, git hub
-// even though this is named heroku it is in the github repo not herokus repo
-
-// sorting out git HEAD
-// I'm thinking this will push to github
-// from the branch called trying
-
 
 const app = express();
 const server = http.createServer(app);
