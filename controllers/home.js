@@ -33,7 +33,7 @@ module.exports = {
          let user = await User.findById(req.user.id)
          console.log(guest,user, "is guest user")
          if(!guest && !user){
-          user = 0,
+
          await Guest.create ({
           userName: req.body.userName,
           email: req.body.email,
