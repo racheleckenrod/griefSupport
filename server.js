@@ -3,6 +3,68 @@ const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
+const app = express();
+const server = http.createServer(app);
+const io = socketio(server);
+const PORT = process.env.PORT || 3000;
+const cors = require('cors')
+require("dotenv").config({ path: "./config/.env" });
+
+app.use(cors())
+
+
+const mongoose = require("mongoose");
+const passport = require("passport");
+const session = require("express-session");
+const MongoStore = require("connect-mongo")(session);
+const methodOverride = require("method-override");
+const flash = require("express-flash");
+const logger = require("morgan");
+const connectDB = require("./config/database");
+const mainRoutes = require("./routes/main");
+
+
+//Use .env file in config folder
+require("dotenv").config({ path: "./config/.env" });
+
+// Passport config
+require("./config/passport")(passport);
+
+//Connect To Database
+connectDB();
+
+
+//Body Parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+//Logging
+app.use(logger("dev"));
+
+//Use forms for put / delete
+app.use(methodOverride("_method"));
+
+// Setup Sessions - stored in MongoDB
+app.use(
+  session({
+    secret: "keyboard cat",
+    resave: false,
+    saveUninitialized: false,
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+  })
+);
+
+// Passport middleware
+app.use(passport.initialize());
+app.use(passport.session());
+
+//Use flash messages for errors, info, ect...
+app.use(flash());
+
+
+
+
+
 // const createAdapter = require("@socket.io/redis-adapter").createAdapter;
 // const redis = require("redis");
 // require("dotenv").config();
@@ -14,20 +76,9 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
-
 // small change to server.js
-// will this version push right to heroku?
-// it did not push right to heroku, but is an attached repo, git hub
-// even though this is named heroku it is in the github repo not herokus repo
-
-// sorting out git HEAD
-// I'm thinking this will push to github
-// from the branch called trying
 
 
-const app = express();
-const server = http.createServer(app);
-const io = socketio(server);
 
 // Set static folder
 app.use(express.static("public"));
@@ -94,11 +145,10 @@ io.on("connection", (socket) => {
   });
 });
 
-// app.get("/", (req,res) => {
-//   console.log("hope")
-//   res.sendFile('index.html')
-// })
+// this route for the feedback form in the footers
+app.use("/feedback", mainRoutes);
 
-const PORT = process.env.PORT || 3000;
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+server.listen(PORT, () => { console.log(`Server running on port ${PORT}`)});
