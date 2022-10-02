@@ -30,9 +30,12 @@ module.exports = {
          console.log(req.user)
          const guest = await Guest.findOne({email: req.body.email})
          console.log(guest, "==guest")
-         const user = await User.findById(req.user_id)
-         console.log(guest,user, "is guest user")
+         if(req.user) {
+          let user = await User.findById(req.user.id)
+         }
+         console.log(guest, "is guest user")
          if(!guest && !user){
+
          await Guest.create ({
           userName: req.body.userName,
           email: req.body.email,
@@ -46,7 +49,7 @@ module.exports = {
         });
 
         console.log("Feedback has been added!");
-        res.redirect("/")
+        res.redirect("https://live-grief-support.herokuapp.com/#footer")
       } catch (err) {
         console.log(err);
       } 
