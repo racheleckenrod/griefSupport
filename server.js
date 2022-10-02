@@ -76,27 +76,6 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
-
-// // from BUB
-// // const express = require("express");
-// const app = express();
-// const mongoose = require("mongoose");
-// const passport = require("passport");
-// const session = require("express-session");
-// const MongoStore = require("connect-mongo")(session);
-// const methodOverride = require("method-override");
-// const flash = require("express-flash");
-// const logger = require("morgan");
-// const connectDB = require("./config/database");
-// const mainRoutes = require("./routes/main");
-// const postRoutes = require("./routes/posts");
-// const commentRoutes = require("./routes/comments");
-
-// // const app = express();
-// const server = http.createServer(app);
-// const io = socketio(server);
-
-// small change to server.js
 // Set static folder
 app.use(express.static("public"));
 
@@ -180,7 +159,6 @@ app.use(express.json());
 //Logging
 app.use(logger("dev"));
 
-
 //Use forms for put / delete
 app.use(methodOverride("_method"));
 
@@ -210,13 +188,13 @@ app.use("/comment", commentRoutes);
 app.listen(process.env.PORT, () => {
   console.log("Server is running, you better catch it!");
 });
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 
 // server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 // this route for the feedback form in the footers
+
+
 app.use("/feedback", mainRoutes);
-
-
 
 
 server.listen(PORT, () => { console.log(`Server running on port ${PORT}`)});
