@@ -3,6 +3,68 @@ const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
+const app = express();
+const server = http.createServer(app);
+const io = socketio(server);
+const PORT = process.env.PORT || 3000;
+const cors = require('cors')
+require("dotenv").config({ path: "./config/.env" });
+
+app.use(cors())
+
+
+const mongoose = require("mongoose");
+const passport = require("passport");
+const session = require("express-session");
+const MongoStore = require("connect-mongo")(session);
+const methodOverride = require("method-override");
+const flash = require("express-flash");
+const logger = require("morgan");
+const connectDB = require("./config/database");
+const mainRoutes = require("./routes/main");
+
+
+//Use .env file in config folder
+require("dotenv").config({ path: "./config/.env" });
+
+// Passport config
+require("./config/passport")(passport);
+
+//Connect To Database
+connectDB();
+
+
+//Body Parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+//Logging
+app.use(logger("dev"));
+
+//Use forms for put / delete
+app.use(methodOverride("_method"));
+
+// Setup Sessions - stored in MongoDB
+app.use(
+  session({
+    secret: "keyboard cat",
+    resave: false,
+    saveUninitialized: false,
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+  })
+);
+
+// Passport middleware
+app.use(passport.initialize());
+app.use(passport.session());
+
+//Use flash messages for errors, info, ect...
+app.use(flash());
+
+
+
+
+
 // const createAdapter = require("@socket.io/redis-adapter").createAdapter;
 // const redis = require("redis");
 // require("dotenv").config();
@@ -14,14 +76,14 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
-const app = express();
-const server = http.createServer(app);
-const io = socketio(server);
+// small change to server.js
+
+
 
 // Set static folder
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static("public"));
 
-const botName = "ChatCord Bot";
+const botName = "Grief Support Bot";
 
 // (async () => {
 //   pubClient = createClient({ url: "redis://127.0.0.1:6379" });
@@ -39,7 +101,7 @@ io.on("connection", (socket) => {
     socket.join(user.room);
 
 //     // Welcome current user
-    socket.emit("message", formatMessage(botName, "Welcome to chatCord!"));
+    socket.emit("message", formatMessage(botName, "Welcome to Live Grief Support!"));
 
 //     // Broadcast when a user connects
     socket.broadcast
@@ -83,6 +145,10 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+// this route for the feedback form in the footers
+app.use("/feedback", mainRoutes);
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+
+server.listen(PORT, () => { console.log(`Server running on port ${PORT}`)});
