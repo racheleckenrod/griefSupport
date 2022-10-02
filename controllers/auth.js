@@ -1,6 +1,10 @@
 const passport = require("passport");
 const validator = require("validator");
 const User = require("../models/User");
+<<<<<<< HEAD
+=======
+const Guest = require("../models/Guest");
+>>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
 
 exports.getLogin = (req, res) => {
   if (req.user) {
@@ -58,7 +62,11 @@ exports.logout = (req, res) => {
 
 exports.getSignup = (req, res) => {
   if (req.user) {
+<<<<<<< HEAD
     return res.redirect("/profile");
+=======
+    return res.redirect("/welcome");
+>>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
   }
   res.render("signup", {
     title: "Create Account",
@@ -110,9 +118,62 @@ exports.postSignup = (req, res, next) => {
           if (err) {
             return next(err);
           }
+<<<<<<< HEAD
           res.redirect("/profile");
+=======
+          res.redirect("/welcome");
+>>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
         });
       });
     }
   );
 };
+<<<<<<< HEAD
+=======
+
+// exports.postFeedback = async (req, res) => {
+//   try {
+
+//   }catch (err) {
+//     console.log(err);
+//   }
+// }
+
+exports.postFeedback = (req, res, next) => {
+  const validationErrors = [];
+  if (!validator.isEmail(req.body.email))
+    validationErrors.push({ msg: "Please enter a valid email address." });
+
+  if (!validator.isLength(req.body.userName, { min: 1 }))
+  validationErrors.push({
+    msg: "Please enter your name.",
+  });
+
+  if (validationErrors.length) {
+    req.flash("errors", validationErrors);
+    return res.redirect("/");
+  }
+  req.body.email = validator.normalizeEmail(req.body.email, {
+    gmail_remove_dots: false,
+  });
+
+  if (req.user || req.guest){
+    console.log("what's next?")
+    return next();
+    
+  }
+
+  const guest = new Guest({
+    guestName: req.body.userName,
+    email: req.body.email,
+  });
+
+  guest.save((err) => {
+    if (err) {
+      return next(err);
+    }
+  });
+
+
+};
+>>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
