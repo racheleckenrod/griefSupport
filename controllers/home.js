@@ -29,10 +29,11 @@ module.exports = {
          console.log("before create")
          console.log(req.user)
          const guest = await Guest.findOne({email: req.body.email})
-         console.log(guest, "==guest")
-         const user = await User.findById(req.user_id)
+         console.log(guest, "==guest", user.userName)
+         let user = await User.findById(req.user.id)
          console.log(guest,user, "is guest user")
          if(!guest && !user){
+          user = 0,
          await Guest.create ({
           userName: req.body.userName,
           email: req.body.email,
