@@ -46,7 +46,7 @@ module.exports = {
         });
 
         console.log("Feedback has been added!");
-        res.redirect("/")
+        res.redirect("https://live-grief-support.herokuapp.com/#footer")
       } catch (err) {
         console.log(err);
       } 
