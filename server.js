@@ -3,10 +3,10 @@ const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
-const app = express();
-const server = http.createServer(app);
-const io = socketio(server);
-const PORT = process.env.PORT || 3000;
+// const app = express();
+// const server = http.createServer(app);
+// const io = socketio(server);
+// const PORT = process.env.PORT || 3000;
 const cors = require('cors')
 require("dotenv").config({ path: "./config/.env" });
 
@@ -16,7 +16,7 @@ app.use(cors())
 const mongoose = require("mongoose");
 const passport = require("passport");
 const session = require("express-session");
-const MongoStore = require("connect-mongo")(session);
+// const MongoStore = require("connect-mongo")(session);
 const methodOverride = require("method-override");
 const flash = require("express-flash");
 const logger = require("morgan");
@@ -76,31 +76,27 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
-<<<<<<< HEAD
-// from BUB
-// const express = require("express");
-const app = express();
-const mongoose = require("mongoose");
-const passport = require("passport");
-const session = require("express-session");
-const MongoStore = require("connect-mongo")(session);
-const methodOverride = require("method-override");
-const flash = require("express-flash");
-const logger = require("morgan");
-const connectDB = require("./config/database");
-const mainRoutes = require("./routes/main");
-const postRoutes = require("./routes/posts");
-const commentRoutes = require("./routes/comments");
 
+// // from BUB
+// // const express = require("express");
 // const app = express();
-const server = http.createServer(app);
-const io = socketio(server);
-=======
+// const mongoose = require("mongoose");
+// const passport = require("passport");
+// const session = require("express-session");
+// const MongoStore = require("connect-mongo")(session);
+// const methodOverride = require("method-override");
+// const flash = require("express-flash");
+// const logger = require("morgan");
+// const connectDB = require("./config/database");
+// const mainRoutes = require("./routes/main");
+// const postRoutes = require("./routes/posts");
+// const commentRoutes = require("./routes/comments");
+
+// // const app = express();
+// const server = http.createServer(app);
+// const io = socketio(server);
+
 // small change to server.js
-
-
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
-
 // Set static folder
 app.use(express.static("public"));
 
@@ -184,7 +180,7 @@ app.use(express.json());
 //Logging
 app.use(logger("dev"));
 
-<<<<<<< HEAD
+
 //Use forms for put / delete
 app.use(methodOverride("_method"));
 
@@ -217,7 +213,6 @@ app.listen(process.env.PORT, () => {
 const PORT = process.env.PORT || 3000;
 
 // server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-=======
 // this route for the feedback form in the footers
 app.use("/feedback", mainRoutes);
 
@@ -225,4 +220,4 @@ app.use("/feedback", mainRoutes);
 
 
 server.listen(PORT, () => { console.log(`Server running on port ${PORT}`)});
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
+
