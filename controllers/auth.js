@@ -1,10 +1,7 @@
 const passport = require("passport");
 const validator = require("validator");
 const User = require("../models/User");
-<<<<<<< HEAD
-=======
 const Guest = require("../models/Guest");
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
 
 exports.getLogin = (req, res) => {
   if (req.user) {
@@ -62,11 +59,7 @@ exports.logout = (req, res) => {
 
 exports.getSignup = (req, res) => {
   if (req.user) {
-<<<<<<< HEAD
-    return res.redirect("/profile");
-=======
     return res.redirect("/welcome");
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
   }
   res.render("signup", {
     title: "Create Account",
@@ -118,18 +111,12 @@ exports.postSignup = (req, res, next) => {
           if (err) {
             return next(err);
           }
-<<<<<<< HEAD
-          res.redirect("/profile");
-=======
           res.redirect("/welcome");
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
         });
       });
     }
   );
 };
-<<<<<<< HEAD
-=======
 
 // exports.postFeedback = async (req, res) => {
 //   try {
@@ -176,4 +163,3 @@ exports.postFeedback = (req, res, next) => {
 
 
 };
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504
