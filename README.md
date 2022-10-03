@@ -7,3 +7,5 @@ this code now runs. with mongo db, not sure about the functioning of the form su
 
 
 just finished a reattaching of the head I think.
+
+Pretty sure this main branch automatically deploys to heroku
