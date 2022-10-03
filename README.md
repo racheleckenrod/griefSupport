@@ -7,3 +7,5 @@ Making a comment here to start to sort out the codebase
 Master is not deploying to heroku
 
 Just want to make a little comment here to congratulate myself in sorting this out
+
+I guess that was a bit premature, as this branch still autodeployed to heroku
