@@ -9,11 +9,11 @@ this code now runs. with mongo db, not sure about the functioning of the form su
 
 just finished a reattaching of the head I think.
 
-Pretty sure this main branch automatically deploys to heroku
+
 
 Making a comment here to start to sort out the codebase
 
 Master is not deploying to heroku
 
-a most recent push to main also deployed directly to heroku, but I suspect 
-after the pull request is complete it wil not.Ω
+
+Now we have a master branch here that needs some updated style. the header is white..
