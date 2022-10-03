@@ -10,4 +10,4 @@ I am intending to use this code as the base going forward
 
 Making a comment here to start to sort out the codebase
 
-Master is not deploying to heroku
+I am making a small update here as I get closer to getting going
