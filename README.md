@@ -4,6 +4,4 @@ Big thanks to Brad @ Travery Media for the starter code for this chat app, as we
 
 Making a comment here to start to sort out the codebase
 
-Master is not deploying to heroku
-
-Just want to make a little comment here to congratulate myself in sorting this out
+I am intending to use this code as the base going forward
