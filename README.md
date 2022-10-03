@@ -7,16 +7,6 @@ Making a comment here to start to sort out the codebase
 
 I am intending to use this code as the base going forward
 
-this code now runs. with mongo db, not sure about the functioning of the form submitting
+how to get this code to be running on master and main(to heroku)
 
-
-just finished a reattaching of the head I think.
-
-
-
-Making a comment here to start to sort out the codebase
-
-Master is not deploying to heroku
-
-
-Now we have a master branch here that needs some updated style. the header is white..
+I am making a small update here as I get closer to getting going
