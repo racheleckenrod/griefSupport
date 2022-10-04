@@ -23,4 +23,4 @@ I am making a small update here as I get closer to getting going
 
 New Branch called major here with the intended purpose of reconnecting the branch
 called griefSupport
-
+Just got to this branch from the other side..
