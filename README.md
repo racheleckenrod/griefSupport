@@ -10,3 +10,4 @@ if it update on github now, that it wasn't doing before
 
 just created branch copyWorkingMaster to sort this mess out fully
 forgot to checkout the branch I made after I got here
+Now I am on HurryUp and picking apart what needs to be done
