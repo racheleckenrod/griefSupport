@@ -37,3 +37,4 @@ pull from griefSupport master brought us here
 This appears to be the branch that was separated or intertwined but unreachable to gitHub.
 called mustBeMasterGriefSupport at the moment- may be the main repo branch too
 
+mustBeMasterGriefSupport could be the remote repo to heroku
