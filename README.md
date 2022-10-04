@@ -23,4 +23,10 @@ I am making a small update here as I get closer to getting going
 
 New Branch called major here with the intended purpose of reconnecting the branch
 called griefSupport
+Just got to this branch from the other side..
+New branch minor may be able to help get the heroku connection cleared up
+this pull connected with guthub and was pulled from branch major through griefSupportg
 
+Now I am on branch minor second commit here..
+
+Just set new remote connection for branch minor to origin and pushed it up
