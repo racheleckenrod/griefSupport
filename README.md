@@ -34,3 +34,5 @@ no conflicts when doing a pull to github
 did a pull and was asked what one and I knew I wanted origin master and was 
 completed with no problem and with successfull rebase and updated ref/heads/main
 first time met with some resistance but making this second commit and will give another go , rebased the second time against origin main instead of master
+
+going to try a push from main and check the github repo before tracking down the heroku connections
