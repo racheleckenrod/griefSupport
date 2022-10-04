@@ -38,3 +38,7 @@ This appears to be the branch that was separated or intertwined but unreachable 
 called mustBeMasterGriefSupport at the moment- may be the main repo branch too
 
 mustBeMasterGriefSupport could be the remote repo to heroku
+
+
+
+Just found out I am in a rebase here when trying to pull from griefSupport the remotes do not directly say heroku but I am thinking that they it goes through the grief support remote
