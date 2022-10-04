@@ -30,3 +30,6 @@ now we need to find a branch off of griefSupport for main, but I think that is t
 ok, I just set that up. origin through master to main... was it correct?
 
 no conflicts when doing a pull to github
+
+did a pull and was asked what one and I knew I wanted origin master and was 
+completed with no problem and with successfull rebase and updated ref/heads/main
