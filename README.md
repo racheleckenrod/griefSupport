@@ -19,3 +19,8 @@ I may be making some real progress in replacing the missing pieces..
 I think this griefSupport branch is the one that connects with heroku(?)I dont see the update on github and this is supposed to be the master branch
 Now, I did see it updated with previous commit..
 
+I am making a small update here as I get closer to getting going
+
+New Branch called major here with the intended purpose of reconnecting the branch
+called griefSupport
+
