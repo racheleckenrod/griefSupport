@@ -11,3 +11,5 @@ if it update on github now, that it wasn't doing before
 I may be going backwards by doing this but we will see
 
 Oh a bitty branch called tiny mistake to keep the commit on the detached head intact
+
+just needed to perform a pruning of origin to allow a pull
