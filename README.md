@@ -28,3 +28,5 @@ New branch minor may be able to help get the heroku connection cleared up
 this pull connected with guthub and was pulled from branch major through griefSupportg
 
 Now I am on branch minor second commit here..
+
+Just set new remote connection for branch minor to origin and pushed it up
