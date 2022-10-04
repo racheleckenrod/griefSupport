@@ -24,11 +24,5 @@ I am making a small update here as I get closer to getting going
 New Branch called major here with the intended purpose of reconnecting the branch
 called griefSupport
 Just got to this branch from the other side..
-New branch minor may be able to help get the heroku connection cleared up
-this pull connected with guthub and was pulled from branch major through griefSupportg
-
-Now I am on branch minor second commit here..
-
-Just set new remote connection for branch minor to origin and pushed it up
-
-Just found out I am in a rebase here when trying to pull from griefSupport the remotes do not directly say heroku but I am thinking that they it goes through the grief support remote
+main lost her remote but was rebased against origin major and was already up to date.
+now we need to find a branch off of griefSupport for main, but I think that is the heroku way, may be best to go through master so she can be back in the github repo
