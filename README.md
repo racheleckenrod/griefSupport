@@ -9,3 +9,4 @@ just pushed the origin head into the file, goint to do a simple push and see
 if it update on github now, that it wasn't doing before
 
 just created branch copyWorkingMaster to sort this mess out fully
+forgot to checkout the branch I made after I got here
