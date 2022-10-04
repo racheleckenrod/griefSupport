@@ -36,6 +36,4 @@ Now I am on branch minor second commit here..
 
 Just set new remote connection for branch minor to origin and pushed it up
 
-This appears to be the branch that was separated or intertwined but unreachable to gitHub.
-called mustBeMasterGriefSupport at the moment- may be the main repo branch too
-
+Just found out I am in a rebase here when trying to pull from griefSupport the remotes do not directly say heroku but I am thinking that they it goes through the grief support remote
