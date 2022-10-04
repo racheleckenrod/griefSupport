@@ -44,8 +44,6 @@ mustBeMasterGriefSupport could be the remote repo to heroku
 the attempt to push to griefSupport was stopped!! and would have required a pull first "because the tip 
 of your current branch is behindits remote counterpart" I am pretty sure that is what we wanted/needed 
 to have happen to prevent the pushes from main going directly to deployment.
-This appears to be the branch that was separated or intertwined but unreachable to gitHub.
-called mustBeMasterGriefSupport at the moment- may be the main repo branch too
-
-
 Just found out I am in a rebase here when trying to pull from griefSupport the remotes do not directly say heroku but I am thinking that they it goes through the grief support remote
+
+
