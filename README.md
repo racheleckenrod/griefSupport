@@ -36,3 +36,6 @@ Now I am on branch minor second commit here..
 
 Just set new remote connection for branch minor to origin and pushed it up
 
+This appears to be the branch that was separated or intertwined but unreachable to gitHub.
+called mustBeMasterGriefSupport at the moment- may be the main repo branch too
+
