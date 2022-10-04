@@ -34,3 +34,6 @@ I suppose it is possible that this main branch can push to griefSupport, one of 
 
 the attempt to push to griefSupport was stopped!! and would have required a pull first "because the tip of your current branch is behindits remote counterpart" I am pretty sure that is what we wanted/needed to have happen to prevent the pushes from main going directly to deployment.
 pull from griefSupport master brought us here
+This appears to be the branch that was separated or intertwined but unreachable to gitHub.
+called mustBeMasterGriefSupport at the moment- may be the main repo branch too
+
