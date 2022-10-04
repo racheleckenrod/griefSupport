@@ -11,3 +11,4 @@ if it update on github now, that it wasn't doing before
 I may be going backwards by doing this but we will see
 
 Finding I had a remote called griefSupport then setting this branch to connect to it
+I may be making some real progress in replacing the missing pieces..
