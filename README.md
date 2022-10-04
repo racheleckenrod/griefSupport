@@ -26,3 +26,5 @@ called griefSupport
 Just got to this branch from the other side..
 main lost her remote but was rebased against origin major and was already up to date.
 now we need to find a branch off of griefSupport for main, but I think that is the heroku way, may be best to go through master so she can be back in the github repo
+
+ok, I just set that up. origin through master to main... was it correct?
