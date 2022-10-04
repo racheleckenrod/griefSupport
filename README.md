@@ -30,3 +30,5 @@ this pull connected with guthub and was pulled from branch major through griefSu
 Now I am on branch minor second commit here..
 
 Just set new remote connection for branch minor to origin and pushed it up
+
+Just found out I am in a rebase here when trying to pull from griefSupport the remotes do not directly say heroku but I am thinking that they it goes through the grief support remote
