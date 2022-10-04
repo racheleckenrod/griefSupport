@@ -14,11 +14,6 @@ Now I am on HurryUp and picking apart what needs to be done
 
 I may be going backwards by doing this but we will see
 
-
-Oh a bitty branch called tiny mistake to keep the commit on the detached head intact
-
-just needed to perform a pruning of origin to allow a pull
-
 Finding I had a remote called griefSupport then setting this branch to connect to it
 I may be making some real progress in replacing the missing pieces..
 I think this griefSupport branch is the one that connects with heroku(?)I dont see the update on github and this is supposed to be the master branch
