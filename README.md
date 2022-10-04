@@ -61,4 +61,4 @@ going to try a push from main and check the github repo before tracking down the
 I suppose it is possible that this main branch can push to griefSupport, one of its remotes now listed,
 we shall see
 
-
+Just found out I am in a rebase here when trying to pull from griefSupport the remotes do not directly say heroku but I am thinking that they it goes through the grief support remote
