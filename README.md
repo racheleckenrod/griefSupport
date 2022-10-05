@@ -25,9 +25,11 @@ I am making a small update here as I get closer to getting going
 The current situation was ineffective for smooth interaction of the two sites.
 
 
+
 this is some excellent looking code beautiful css and only one report from the database.
 starting another branch here to work on the users/database/auth/guest so anyone can send a form
 
 Coming to you live from Main, that has become the new default branch on github and the former default, master, was just deleted locally and I intend to delete the remote as well. 
 
 Keeping the readme log updated here, as I have deleted the old branch master and have reset the branch main to be the default branch, then in trying to push it up in it's new form it was not possible, so I changed its name to master....
+NOW this same branch main -the new default branch- is named master and , but still is named main on github. hopefully a push to github now will update the name change or at  least set the stage for being able to change this branch's name back to main.
