@@ -36,3 +36,6 @@ I think that I am supposed to do a git pull from the hurryUp branch so this code
 Main has been renamed and changed back again and set to be the default branch. I am going to see If i can have the expected behaviour happen that my pushing my good single reporting mongo code up to main will fix main.
 
 so I did not push this code, but did a merge. now ill push to origin
+
+I used a plain old copy the contents of the file and paste it into the other file to accomplish my goal of having just one report coming back from mongo before I tried to do anything else with the code, but this was not a satisfying concluson to this deep dive into git hub, as I still dont see clearly how to update my code.
+
