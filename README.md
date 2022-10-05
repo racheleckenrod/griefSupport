@@ -23,3 +23,5 @@ Now, I did see it updated with previous commit..
 this is some excellent looking code beautiful css and only one report from the database.
 starting another branch here to work on the users/database/auth/guest so anyone can send a form
 
+this branch is to deal with the authentication and revamp what I have done that didn't turn out to be a good way- replace feedback auth into guests and two routes for the way to deal with the clicks of the button. will most likly also git into the sessions to keep our users logged in. maybe limit the guests to one chat room
+
