@@ -34,3 +34,5 @@ I think that I am supposed to do a git pull from the hurryUp branch so this code
 - after I commit the changes i am makeing in these note
 
 Main has been renamed and changed back again and set to be the default branch. I am going to see If i can have the expected behaviour happen that my pushing my good single reporting mongo code up to main will fix main.
+
+so I did not push this code, but did a merge. now ill push to origin
