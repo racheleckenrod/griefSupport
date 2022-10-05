@@ -1,3 +1,8 @@
+module.exports = {
+  getIndex: (req, res) => {
+    res.render("index2.ejs");
+  },
+};
 // const Post = require("../models/Post");
 // const Comment = require("../models/Comment")
 const Feedback = require("../models/Feedback");
@@ -69,5 +74,4 @@ module.exports = {
   //   } catch (err) { 
   //     console.log(err);
   //   }
-  // }:
-
+    // }:
