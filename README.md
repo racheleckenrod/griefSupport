@@ -23,3 +23,6 @@ Now, I did see it updated with previous commit..
 this is some excellent looking code beautiful css and only one report from the database.
 starting another branch here to work on the users/database/auth/guest so anyone can send a form
 Remembered to create a new branch from some beautiful working code and check it out and get myself read for working on it tomorrow.
+
+I think that I am supposed to do a git pull from the hurryUp branch so this code it current before I start working on a feature of it. a pull request went to github automatically that I approved so now I am going to do a pull request from hurryUP
+- after I commit the changes i am makeing in these note
