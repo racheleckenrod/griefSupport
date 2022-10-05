@@ -28,10 +28,9 @@ The current situation was ineffective for smooth interaction of the two sites.
 
 this is some excellent looking code beautiful css and only one report from the database.
 starting another branch here to work on the users/database/auth/guest so anyone can send a form
+Remembered to create a new branch from some beautiful working code and check it out and get myself read for working on it tomorrow.
 
-Coming to you live from Main, that has become the new default branch on github and the former default, master, was just deleted locally and I intend to delete the remote as well. 
+I think that I am supposed to do a git pull from the hurryUp branch so this code it current before I start working on a feature of it. a pull request went to github automatically that I approved so now I am going to do a pull request from hurryUP
+- after I commit the changes i am makeing in these note
 
-Keeping the readme log updated here, as I have deleted the old branch master and have reset the branch main to be the default branch, then in trying to push it up in it's new form it was not possible, so I changed its name to master....
-NOW this same branch main -the new default branch- is named master and , but still is named main on github. hopefully a push to github now will update the name change or at  least set the stage for being able to change this branch's name back to main.
-
-I somehow brought along the double reporting of the database, dang
+Main has been renamed and changed back again and set to be the default branch. I am going to see If i can have the expected behaviour happen that my pushing my good single reporting mongo code up to main will fix main.
