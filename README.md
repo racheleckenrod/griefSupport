@@ -26,3 +26,5 @@ Remembered to create a new branch from some beautiful working code and check it 
 
 I think that I am supposed to do a git pull from the hurryUp branch so this code it current before I start working on a feature of it. a pull request went to github automatically that I approved so now I am going to do a pull request from hurryUP
 - after I commit the changes i am makeing in these note
+
+Main has been renamed and changed back again and set to be the default branch. I am going to see If i can have the expected behaviour happen that my pushing my good single reporting mongo code up to main will fix main.
