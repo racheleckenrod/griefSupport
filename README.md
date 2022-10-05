@@ -62,3 +62,5 @@ we shall see
 
 
 
+****
+Just checked out this new branch but I forgot to save my changed in the last commit I hopped into. now, I am pretty sure that I want to commit here, go back into the other one save the changes I made as they were resolving conflicts to at least make the code run. 

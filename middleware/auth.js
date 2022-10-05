@@ -1,21 +1,4 @@
 module.exports = {
-<<<<<<< HEAD
-  ensureAuth: function (req, res, next) {
-    if (req.isAuthenticated()) {
-      return next();
-    } else {
-      res.redirect("/");
-    }
-  },
-  ensureGuest: function (req, res, next) {
-    if (!req.isAuthenticated()) {
-      return next();
-    } else {
-      res.redirect("/dashboard");
-    }
-  },
-};
-=======
     ensureAuth: function (req, res, next) {
       if (req.isAuthenticated()) {
         return next();
@@ -45,4 +28,3 @@ module.exports = {
     },
   };
   
->>>>>>> bd23b50f69a8b1b7c18913a88a8eb31e81dd5504

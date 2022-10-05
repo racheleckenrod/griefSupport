@@ -18,7 +18,7 @@ app.use(cors())
 const mongoose = require("mongoose");
 const passport = require("passport");
 const session = require("express-session");
-// const MongoStore = require("connect-mongo")(session);
+const MongoStore = require("connect-mongo")(session);
 const methodOverride = require("method-override");
 const flash = require("express-flash");
 const logger = require("morgan");
@@ -183,8 +183,8 @@ app.use(flash());
 
 //Setup Routes For Which The Server Is Listening
 app.use("/", mainRoutes);
-app.use("/post", postRoutes);
-app.use("/comment", commentRoutes);
+// app.use("/post", postRoutes);
+// app.use("/comment", commentRoutes);
 
 //Server Running
 app.listen(process.env.PORT, () => {
