@@ -33,3 +33,5 @@ Coming to you live from Main, that has become the new default branch on github a
 
 Keeping the readme log updated here, as I have deleted the old branch master and have reset the branch main to be the default branch, then in trying to push it up in it's new form it was not possible, so I changed its name to master....
 NOW this same branch main -the new default branch- is named master and , but still is named main on github. hopefully a push to github now will update the name change or at  least set the stage for being able to change this branch's name back to main.
+
+I somehow brought along the double reporting of the database, dang
