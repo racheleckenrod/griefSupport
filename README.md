@@ -7,3 +7,5 @@ first commit with branch grace
 This begins the feature of handleing sessions, guests and users.
 
 The current situation was ineffective for smooth interaction of the two sites.
+
+perhaps I can use this branch for sorting out what to do with the sessions after all
