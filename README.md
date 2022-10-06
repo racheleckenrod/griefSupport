@@ -33,3 +33,5 @@ Remembered to create a new branch from some beautiful working code and check it 
 Keeping the readme log updated here, as I have deleted the old branch master and have reset the branch main to be the default branch, then in trying to push it up in it's new form it was not possible, so I changed its name to master....
 
 back here on hurryUp, ready to make a commit and possible merge with sessions
+
+terminal is not giving me spaces this time... hooray
