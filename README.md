@@ -48,3 +48,10 @@ My best laid plans.... the paste did not have the index contents- gotta head bac
 Now that I have a HEAD on my main branch, I can work to get the code essentially purified so that it is not connected to other things.
 problem here when pushing to origin main doesn't know there are changes
 I see it is because I did not commit the add. now I need to do another add.
+
+After many deleting copies in other places on my computer site has white line across.
+
+going to move files around but I rm -rf 'ed a bunch..
+also closed ports ok, false alarm actually, the white line is just on the mobile size, fuller screen looks nice. I'm actually thinking that maybe the websocket needs all that package-lock.json to operate
+
+I deleted the .git file from the folder the copy is in that I used to reconnect main here locally before it was done remotely. see in the redame files about coming through from the other side. 
