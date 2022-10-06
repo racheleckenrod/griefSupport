@@ -39,3 +39,5 @@ so I did not push this code, but did a merge. now ill push to origin
 
 I used a plain old copy the contents of the file and paste it into the other file to accomplish my goal of having just one report coming back from mongo before I tried to do anything else with the code, but this was not a satisfying concluson to this deep dive into git hub, as I still dont see clearly how to update my code.
 
+Upon return from formSubmission with it's contents of server.js to replace this non-working version, I find that the space coming back from the server is no longer present and it looks good.
+
