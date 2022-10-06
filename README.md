@@ -32,3 +32,5 @@ Main has been renamed and changed back again and set to be the default branch. I
 so I did not push this code, but did a merge. now ill push to origin
 
 came over here to copy/paste this server.js file into main, as it was not up to par..
+
+this time I am returning to main after tracking down the route and bringing with me the contents of the index.html file that I think was missing from main
