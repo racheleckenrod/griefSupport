@@ -44,3 +44,7 @@ Upon return from formSubmission with it's contents of server.js to replace this 
 just adding a note here about the absence of the package-lock.json being the main reason for this commit. and subswquent push to hopefully just github.
 
 My best laid plans.... the paste did not have the index contents- gotta head back to get it..
+
+Now that I have a HEAD on my main branch, I can work to get the code essentially purified so that it is not connected to other things.
+problem here when pushing to origin main doesn't know there are changes
+I see it is because I did not commit the add. now I need to do another add.
