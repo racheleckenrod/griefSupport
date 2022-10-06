@@ -55,3 +55,5 @@ going to move files around but I rm -rf 'ed a bunch..
 also closed ports ok, false alarm actually, the white line is just on the mobile size, fuller screen looks nice. I'm actually thinking that maybe the websocket needs all that package-lock.json to operate
 
 I deleted the .git file from the folder the copy is in that I used to reconnect main here locally before it was done remotely. see in the redame files about coming through from the other side. 
+
+just back from some deleting branches and making some commits, and the main is no longer returning the messages from git withthe spaces.. I know it is a contaminant of some kind but I dont know more
