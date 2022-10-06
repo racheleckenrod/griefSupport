@@ -41,3 +41,4 @@ I used a plain old copy the contents of the file and paste it into the other fil
 
 Upon return from formSubmission with it's contents of server.js to replace this non-working version, I find that the space coming back from the server is no longer present and it looks good.
 
+just adding a note here about the absence of the package-lock.json being the main reason for this commit. and subswquent push to hopefully just github.
