@@ -32,3 +32,5 @@ Main has been renamed and changed back again and set to be the default branch. I
 so I did not push this code, but did a merge. now ill push to origin
 
 ***lots of housekeeping
+
+getting back here to main from a trip to heroku to pick up detached HEADS . it was unintentional that that happened. one for master, and one for main,
