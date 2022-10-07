@@ -36,3 +36,5 @@ so I did not push this code, but did a merge. now ill push to origin
 getting back here to main from a trip to heroku to pick up detached HEADS . it was unintentional that that happened. one for master, and one for main,
 
 Interesting to me that making last last commit w/ the message  'heading to heroku-deploy' separted it(heroku-deploy) from this, the main. The readme.txt file that i just made up in branch freedom is not here but the LICENSE.txt is- remeber that it  wasnt up there..
+
+made it back from heroku-deploy and it appears to be separate from main now
