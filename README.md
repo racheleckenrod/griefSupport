@@ -25,3 +25,11 @@ starting another branch here to work on the users/database/auth/guest so anyone 
 
 this branch is to deal with the authentication and revamp what I have done that didn't turn out to be a good way- replace feedback auth into guests and two routes for the way to deal with the clicks of the button. will most likly also git into the sessions to keep our users logged in. maybe limit the guests to one chat room
 
+
+time to come back from experimenting and going off on tangents. and bring it all back together.. I dont yet know about the proper way to make commits. 
+
+my journey though the what ever that was is alll done now, and I am settling in to develpo this app
+
+xoxoxoxooxxoxox
+
+

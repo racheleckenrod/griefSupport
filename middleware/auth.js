@@ -1,29 +1,19 @@
+// if logged in, pass the userName into the chat, else ask for one. allow one chat room for guests, 
+
 module.exports = {
     ensureAuth: function (req, res, next) {
       if (req.isAuthenticated()) {
         return next();
       } else {
-        res.redirect("/signup");
+        this.ensureGuest()
       }
     },
     ensureGuest: function (req, res, next) {
       if (!req.isAuthenticated()) {
-        return next();
+        // make a guest
+        create 
       } else {
-        res.redirect("/dashboard");
-      }
-    },
-    ensureFeedback: function (req, res, next) {
-      console.log("ensureFeedback")
-      if (req.isAuthenticated()) {
-        console.log("is authenticated")
-        return next();
-      } else if(!req.isAuthenticated()) {
-        // create Guest, then 
-        console.log("not authenticated")
-        return next();
-      } else {
-        res.redirect("/signup");
+        res.redirect("https://live-grief-support.herokuapp.com/signup");
       }
     },
   };
