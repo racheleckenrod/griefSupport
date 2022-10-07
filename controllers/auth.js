@@ -59,6 +59,7 @@ exports.logout = (req, res) => {
 
 exports.getSignup = (req, res) => {
   if (req.user) {
+    // return res.redirect("/profile");
     return res.redirect("/welcome");
   }
   res.render("signup", {
@@ -111,7 +112,10 @@ exports.postSignup = (req, res, next) => {
           if (err) {
             return next(err);
           }
+          // res.redirect("/profile");
+
           res.redirect("/welcome");
+
         });
       });
     }
