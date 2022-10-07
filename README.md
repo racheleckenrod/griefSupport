@@ -50,3 +50,12 @@ Interesting to me that making last last commit w/ the message  'heading to herok
 
 made it back from heroku-deploy and it appears to be separate from main now
 
+for some updates..
+
+it seems that heroku will take your HEAD. so, for me, it is best to create a transfer branch that I dont mind giving the head to heroku. It is just very important to return to main when the deployment is complete, and I may be wrong so Ill commit this- now that the README txt file is removed. then confirm the update to my default main in github. this deployment created a new branch according to heroku 
+
+remote: Verifying deploy... done.
+To https://git.heroku.com/grief-support.git
+ * [new branch]      main -> main
+
+ 
