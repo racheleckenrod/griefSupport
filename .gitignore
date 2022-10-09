@@ -1,6 +1,7 @@
 
 node_modules
 echo .DS_Store >> .gitignore
+ech ._.DS_Store >> .gitignore
 
 .env
 .DS_Store

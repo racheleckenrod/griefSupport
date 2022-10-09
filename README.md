@@ -79,5 +79,5 @@ back to complete after attaching detached head to breaking point and coming back
 making another stash
 going to make a stash here.
 
-
+connected to db now but orange and purple colors
 the good css this branch had is no longer here, and the whole app in green and untracked, will a get status update the css?
