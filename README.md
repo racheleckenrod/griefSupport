@@ -47,6 +47,16 @@ so I did not push this code, but did a merge. now ill push to origin
 getting back here to main from a trip to heroku to pick up detached HEADS . it was unintentional that that happened. one for master, and one for main,
 
 Interesting to me that making last last commit w/ the message  'heading to heroku-deploy' separted it(heroku-deploy) from this, the main. The readme.txt file that i just made up in branch freedom is not here but the LICENSE.txt is- remeber that it  wasnt up there..
+this branch is to deal with the authentication and revamp what I have done that didn't turn out to be a good way- replace feedback auth into guests and two routes for the way to deal with the clicks of the button. will most likly also git into the sessions to keep our users logged in. maybe limit the guests to one chat room
+
+
+time to come back from experimenting and going off on tangents. and bring it all back together.. I dont yet know about the proper way to make commits. 
+
+my journey though the what ever that was is alll done now, and I am settling in to develpo this app
+
+xoxoxoxooxxoxox
+
+
 
 made it back from heroku-deploy and it appears to be separate from main now
 
@@ -66,3 +76,8 @@ back and forth to heroku-deploy without adding or committing
 I am finding a way to switch fully to main and release master
 
 back to complete after attaching detached head to breaking point and coming back here and deleting breakingPoint
+making another stash
+going to make a stash here.
+
+
+the good css this branch had is no longer here, and the whole app in green and untracked, will a get status update the css?
