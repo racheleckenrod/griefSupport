@@ -62,3 +62,7 @@ To https://git.heroku.com/grief-support.git
 
 
 back and forth to heroku-deploy without adding or committing
+
+I am finding a way to switch fully to main and release master
+
+back to complete after attaching detached head to breaking point and coming back here and deleting breakingPoint
