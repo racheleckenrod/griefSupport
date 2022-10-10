@@ -88,3 +88,6 @@ This detached head I think is causing some problems made a little helper branch 
 went all around and was able to do some deleting of loose ends but mostly not. 
 
 here is another HEAD
+
+
+wa able to delete several merged branches, and pretty sure I cont deleted any of these other branches as they are heroku
