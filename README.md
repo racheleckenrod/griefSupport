@@ -91,3 +91,5 @@ here is another HEAD
 
 
 wa able to delete several merged branches, and pretty sure I cont deleted any of these other branches as they are heroku
+
+confirming for myself not to go past the dead end again.
