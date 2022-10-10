@@ -81,3 +81,5 @@ going to make a stash here.
 
 connected to db now but orange and purple colors
 the good css this branch had is no longer here, and the whole app in green and untracked, will a get status update the css?
+
+This detached head I think is causing some problems made a little helper branch to join this back up.
