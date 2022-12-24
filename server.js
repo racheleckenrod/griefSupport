@@ -82,6 +82,7 @@ const {
 // Set static folder
 app.use(express.static("public"));
 
+
 const botName = "Grief Support Bot";
 
 // (async () => {
@@ -93,10 +94,10 @@ const botName = "Grief Support Bot";
 
 // // Run when client connects
 io.on("connection", (socket) => {
-  // console.log('New WS Connection');
+  console.log('New WS Connection', socket.id,socket.handshake.headers.referer);
   socket.on("joinRoom", ({ username, room }) => {
     const user = userJoin(socket.id, username, room);
-
+    console.log("pkkkkkkkk", user)
     socket.join(user.room);
 
 //     // Welcome current user
@@ -119,8 +120,9 @@ io.on("connection", (socket) => {
 
 //   // Listen for chatMessage
   socket.on("chatMessage", (msg) => {
+    console.log("hearing chatMessage", socket.id)
     const user = getCurrentUser(socket.id);
-       
+       console.log(user)
     io.to(user.room).emit("message", formatMessage(user.username, msg));
   });
 
