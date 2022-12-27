@@ -6,7 +6,7 @@ const formatMessage = require("./utils/messages");
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
-const PORT = process.env.PORT || 3333;
+const PORT = process.env.PORT || 3022;
 const cors = require('cors')
 require("dotenv").config({ path: "./config/.env" });
 
